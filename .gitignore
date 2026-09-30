@@ -1,0 +1,5 @@
+# Build output
+*.zip
+build/
+build.ps1
+
