@@ -1,0 +1,32 @@
+{
+  "manifest_version": 3,
+  "name": "Ultiworld Skip and Resume",
+  "version": "1.0",
+  "description": "Set a custom video skip duration and resume where you left off. Works on ultiworld.com; not affiliated with Ultiworld.",
+  "icons": {
+    "16": "icon16.png",
+    "32": "icon32.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
+  "permissions": [
+    "storage"
+  ],
+  "host_permissions": [
+    "*://*.ultiworld.com/*"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Ultiworld Skip and Resume Settings"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "*://*.ultiworld.com/*"
+      ],
+      "js": [
+        "content.js"
+      ]
+    }
+  ]
+}
