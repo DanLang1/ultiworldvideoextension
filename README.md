@@ -6,7 +6,7 @@ Simple vibe coded chrome extension to allow adjusting video skip/seek durations.
 Also added automated timestamp saving so if you close the tab and reload it should come back about where you left off (within ~30s or so).
 
 Not affiliated with Ultiworld.
-
+Chrome extensions link: https://chromewebstore.google.com/detail/ultiworld-skip-and-resume/dpcaejgpbillhapjfipaoaainjphccgo
 ## Features
 
 - **Custom skip duration** — the left/right arrow keys skip by a configurable
